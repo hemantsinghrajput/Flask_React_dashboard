@@ -12,10 +12,10 @@ app = Flask(__name__)
 # MySQL Configuration
 app.config['MYSQL_HOST'] = 'localhost'
 app.config['MYSQL_USER'] = 'root'
-app.config['MYSQL_PASSWORD'] = 'Hem@2001'
+app.config['MYSQL_PASSWORD'] = 'your_password'
 app.config['MYSQL_DB'] = 'mydatabase'
 app.config['SESSION_TYPE'] = 'filesystem'
-app.secret_key = 'rajputana'
+app.secret_key = 'asdfghjkl'
 
 mysql = MySQL(app)
 CORS(app)
