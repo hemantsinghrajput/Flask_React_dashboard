@@ -1,6 +1,14 @@
-# Getting Started with Create React App
+# Getting Started Backend Server
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+If you want to use "SQLAlchemy" for database than run "app.py" file.
+
+If you want to use "MySQl" for database than run "app1.py" file.
+
+
+
+# Getting Started with Frontend
+
+first install all dependencies by commond "npm i"
 
 ## Available Scripts
 
