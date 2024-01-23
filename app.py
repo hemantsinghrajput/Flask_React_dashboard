@@ -6,7 +6,7 @@ from models import db, User
 
 app = Flask(__name__)
 
-app.config['SECRET_KEY'] = 'cairocoders-ednalanyfufh'
+app.config['SECRET_KEY'] = 'qwertyuioplkjhgdsa'
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///flaskdb.db'
 app.config['JWT_SECRET_KEY'] = 'your_jwt_secret_key'  # Change this to a secure random key
 app.config['CORS_HEADERS'] = 'Content-Type'
